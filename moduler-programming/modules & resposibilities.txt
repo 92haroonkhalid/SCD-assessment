@@ -1,0 +1,6 @@
+Modules and Responsibilities
+
+login.py — Handles user authentication (admin/student login).
+student.py — Manages student registration, view/update student details.
+result.py — Records marks for subjects, calculates grades/GPA.
+report.py — Generates result reports, transcripts, or class-wise summaries.

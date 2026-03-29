@@ -1,0 +1,16 @@
+# Lab 1: Coding Standards and Code Readability
+ABout this task I've added code files in Code_readability directry
+
+# Lab 2: Introduction to Version Control (Git)
+So about version control(Git) usage I've used all the instrctions realted to it like adding repo on github.
+also all the operations are performed through terminal 
+I've used commands like
+git init
+git add
+mkdir
+mv 
+and also other usefull commands 
+
+# Lab 3: Software Build and Compilation
+# Lab 4: Code Debugging Techniques
+According to these two tasks I've worked on it and used VS Code debugger and other tools

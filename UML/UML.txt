@@ -1,0 +1,23 @@
+Lab 3: UML Class Diagram Design (Student Management System)
+
+Identified Classes
+
+Student
+Course
+Instructor
+Enrollment
+Department (optional but useful)
+
+Attributes and Relationships
+
+Student: studentID, name, email, dateOfBirth, major
+Course: courseID, courseName, credits, semester
+Instructor: instructorID, name, email, department
+Enrollment: enrollmentID, student (reference), course (reference), grade, enrollmentDate
+
+Relationships:
+
+Student enrolls in many Courses (many-to-many via Enrollment class).
+Course is taught by one Instructor (many-to-one).
+Instructor belongs to one Department.
+Enrollment associates Student and Course.

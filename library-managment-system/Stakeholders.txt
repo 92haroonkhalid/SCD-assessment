@@ -1,0 +1,29 @@
+1. List of Stakeholders
+Primary Stakeholders (directly interact with and benefit from the system):
+
+Library Patrons / Members (students, faculty, general public) — borrow/return books, search catalog.
+Librarians / Library Staff — manage books, issue/return, generate reports.
+Library Administrator / Manager — oversee operations, user permissions, reports.
+
+Secondary Stakeholders (indirectly affected or support the system):
+
+IT Department / System Administrators — maintain the software, database, backups.
+University/School Management or Library Board — funding, policy decisions.
+Book Suppliers / Publishers — provide new books (data integration possible).
+Guests/Visitors — occasional users who may register or browse.
+Auditors / Regulatory Bodies — ensure compliance with library policies.
+
+2. Requirements Document
+Functional Requirements (5):
+
+The system shall allow users (members/librarians) to search for books by title, author, ISBN, or category.
+The system shall enable librarians to add, update, or delete book records in the catalog.
+The system shall support issuing (borrowing) a book to a registered member and recording the due date.
+The system shall allow returning a book, updating its availability, and calculating any fines for late returns.
+The system shall generate reports such as list of borrowed books, overdue books, or popular books.
+
+Non-Functional Requirements (3):
+
+Performance: The system should respond to search or transaction requests within 2 seconds.
+Security: User authentication is required; only authorized librarians can modify book records; data must be encrypted.
+Usability: The interface must be intuitive and accessible on both desktop and mobile browsers with minimal training required.

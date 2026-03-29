@@ -1,0 +1,37 @@
+1. System Actors
+
+Customer
+Restaurant (Staff/Owner)
+Delivery Rider
+Admin
+
+2. System Use Cases (6+)
+
+Register Account
+Browse/Search Menu
+Place Order
+Make Payment
+Track Order
+Update Order Status (by Restaurant/Rider)
+Manage Menu (by Restaurant)
+View Reports (by Admin)
+
+3. Brief Description of Each Use Case
+
+Register Account: New Customer creates an account with details (name, address, phone, email).
+Browse/Search Menu: Customer views restaurant menus, searches dishes by name/category, and adds items to cart.
+Place Order: Customer selects items, provides delivery address, and confirms the order.
+Make Payment: Customer pays via card, cash on delivery, or digital wallet.
+Track Order: Customer or Rider views real-time order status (preparing, out for delivery, delivered).
+Update Order Status: Restaurant marks order as "Preparing" or "Ready"; Rider updates to "Picked Up" or "Delivered".
+Manage Menu (Restaurant): Add/edit/delete dishes and prices.
+View Reports (Admin): Generate sales reports, user statistics, etc.
+
+Use Case Diagram (Textual Representation)
+
+Connections:
+
+Customer → Register Account, Browse/Search Menu, Place Order, Make Payment, Track Order
+Restaurant → Manage Menu, Update Order Status
+Delivery Rider → Update Order Status (Picked Up/Delivered), Track Order
+Admin → View Reports
